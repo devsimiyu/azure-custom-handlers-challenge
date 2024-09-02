@@ -10,6 +10,6 @@ func init() {
 	if uri, ok := os.LookupEnv("MONGO_URI"); ok {
 		MongoUri = uri
 	} else {
-		MongoUri = "mongodb+srv://root:4d3wZAMQwPvTJ8m@champeschoolcluster.6d0cant.mongodb.net/?retryWrites=true&w=majority&appName=ChampeSchoolCluster"
+		MongoUri = "mongodb+srv://<username>:<password>@<host>/?retryWrites=true&w=majority&appName=<cluster>"
 	}
 }
